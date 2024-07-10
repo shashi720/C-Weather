@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>C-Weather App</title>
+        
+    </head>
+
+    <body>
+        <h1 id="intro">Welcome you to C-Weather </h1>
+        <div id="searchContainer">
+            
+            <input class="searchControl" type="text" placeholder="Check your City" id="searchInput">
+            <button class="searchControl" id="searchBtn">Find&#128269</button>
+        </div>
+        <h2 id="details"> All details here </h2>
+        <div id="cweacon">
+            <div id="cweades">
+                <h1 id="ccityheader"></h1>
+                <div id="cweathermain">
+                    <div id="temp"></div>
+                    <div id="cweadesheader"></div>
+                    <div><img id="documentIconImg"></div>
+                </div>
+                
+                <div id="windSpeed" class="bottom-details"></div>
+                <div id="humidity" class="bottom-details"></div>
+            </div>
+        </div> 
+        <script src="script.js" ></script>
+        <style> 
+            
+#intro {
+    position: Middle;
+    padding: 15px 25px;
+    text-align: center;
+    background-color: aqua;
+}
+          
+
+#c-wea-cont h1 & h2 {
+    margin: 5px;
+    font-size: 42px;
+    font-family: "Cursive", cursive;
+}
+
+#searchContainer {
+   margin: auto;
+   width: 20%;
+}
+
+#details{
+        padding: 15px 25px;
+        background-color: whitesmoke;
+        padding: 0px;
+}
+
+   .searchControl {
+    box-shadow: 5px 5px 10px red;
+  
+}
+
+.searchControl input{
+    position:absolute;
+    left:20%;
+    top:25%;
+    width:30%;
+    background-color:white;
+    color:grey;
+}
+    
+#c-MainWeather {
+    display: block;
+    margin-bottom: 20px;
+}
+  
+#c-MainWeather div {
+    display: inline-block;
+}
+#c-wea-des-header {
+    font-size: 28px;
+    vertical-align: 50%;
+    
+}
+
+    
+#temp {
+    font-size: 38px;
+    vertical-align: 25%;
+    text-align: left;
+}
+
+
+        </style>
+       
+    </body>
+</html>
